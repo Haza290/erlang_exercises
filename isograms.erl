@@ -1,5 +1,5 @@
 -module(isograms).
--export([is_isogram/1]).
+-export([is_isogram/1,occurs/2]).
 -import(string,[to_lower/1]).
 -include_lib("eunit/include/eunit.hrl").
 
