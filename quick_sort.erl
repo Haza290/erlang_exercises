@@ -1,5 +1,5 @@
 -module(quick_sort).
--export([pivot_list/2,sort/1]).
+-export([sort/1]).
 -include_lib("eunit/include/eunit.hrl").
 
 sort([]) ->
